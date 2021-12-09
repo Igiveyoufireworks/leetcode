@@ -22,5 +22,4 @@
         res = -res;
     }
     // 判断越界
-    return res > (Math.pow(2,31)-1) || res < -Math.pow(2,31) ? 0 : res;
-};
+    return res > (Math.pow(2,31)-1) || res < -Math.pow(2,31) ? 0 : res
